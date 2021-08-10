@@ -1,0 +1,44 @@
+[
+    {
+        "id":1001,
+        "name":"Campo De Deportes",
+        "imageName":"p1",
+        "description":"Campo De Mayo - PCIA De Buenos Aires",
+        "category":"hot"
+    },
+    {
+        "id":1002,
+        "name":"Centro Recativo Heroes De Malvinas",
+        "imageName":"p4",
+        "description":"Zarate",
+        "category":"hot"
+    },
+    {
+        "id":1003,
+        "name":"Sierras De Cordoba",
+        "imageName":"p4",
+        "description":"+ Conozca las ofertas de esta zona",
+        "category":"cold"
+    },
+    {
+        "id":1004,
+        "name":"Mar Del Plata",
+        "imageName":"p3",
+        "description":"+ Conozca las ofertas de esta zona",
+        "category":"cold"
+    },
+    {
+        "id":1005,
+        "name":"Bariloche",
+        "imageName":"p1",
+        "description":"+ Conozca las ofertas de esta zona",
+        "category":"cold"
+    },
+    {
+        "id":1006,
+        "name":"Buenos Aires",
+        "imageName":"p2",
+        "description":"+ Conozca las ofertas de esta zona",
+        "category":"cold"
+    }
+]
