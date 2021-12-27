@@ -13,7 +13,8 @@ struct CardView: View {
  
     var body: some View {
         VStack(alignment: .leading, spacing: 16.0) {
-            Image(landmark.imageName).resizable()
+            Image(landmark.imageName)
+                .resizable()
                 .renderingMode(.original)
                 .aspectRatio(contentMode:.fill)
                 .frame(width:320,height:250)

@@ -46,14 +46,13 @@ struct ContentView: View {
                                   //DIVISION
                                 
                                   Footer()
-                                      .padding(.horizontal)
+                                     
                                   
                               }
                           })
                       }
                   }
-            //NavigationColor
-                  //NavigationLogo
+            //NavigationColor //NavigationLogo
             
                   .navigationBarTitleDisplayMode(.inline)
                   .navigationColor(background: UIColor.white)

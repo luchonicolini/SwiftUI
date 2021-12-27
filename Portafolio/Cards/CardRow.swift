@@ -19,7 +19,7 @@ struct CardRow: View {
                 .padding(.leading,20)
             
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(alignment: .top) {
+                VStack() {
                     ForEach(self.landmark,id: \.name){ landmark in
                         //NavigationLink -> DetaillView
                         NavigationLink(destination: DetaillView(landmark: landmark)) {
@@ -28,7 +28,7 @@ struct CardRow: View {
                             CardView(landmark: landmark)
                             
                             
-                                .padding(.top,10)
+                                .padding()
                                 .padding(.horizontal,15)
                         }
                     }
